@@ -1,0 +1,28 @@
+# Source files
+src/
+scripts/
+tsconfig.json
+
+# Development files
+.git/
+.gitignore
+.claude/
+.idea/
+*.log
+
+# Build files that shouldn't be published
+node_modules/
+
+# Testing files
+__tests__/
+*.test.*
+*.spec.*
+coverage/
+
+# CI/CD files
+.github/
+
+# Documentation that's not needed in the package
+CONTRIBUTING.md
+SECURITY.md
+CLAUDE.md
