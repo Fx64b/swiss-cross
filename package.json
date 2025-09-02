@@ -1,0 +1,40 @@
+{
+  "name": "swiss-cross",
+  "version": "1.0.0",
+  "description": "A React component for rendering the Swiss cross symbol",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm clean && tsc && tsc --module esnext --outDir dist/esm && node scripts/build-esm.js",
+    "prepublishOnly": "pnpm build",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "swiss",
+    "cross",
+    "flag",
+    "symbol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fx64b/swiss-cross.git"
+  }
+}
