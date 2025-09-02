@@ -97,7 +97,7 @@ pnpm dev
 
 ## Requirements
 
-- Node.js ≥14.0.0
+- Node.js ≥18.12.0
 - React ≥16.8.0
 
 ## Contributing
