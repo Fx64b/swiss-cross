@@ -1,7 +1,7 @@
 # Source files
 src/
-scripts/
 tsconfig.json
+tsup.config.ts
 
 # Development files
 .git/
