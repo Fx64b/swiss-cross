@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Fx64b/swiss-cross/compare/v1.0.2...v1.0.3) (2025-09-03)
+
+
+### Bug Fixes
+
+* update build configuration and add tsup for bundling ([49dc6d6](https://github.com/Fx64b/swiss-cross/commit/49dc6d653457f09b59d6a91de52c069588cadffa))
+
 ## [1.0.2](https://github.com/Fx64b/swiss-cross/compare/v1.0.1...v1.0.2) (2025-09-03)
 
 
