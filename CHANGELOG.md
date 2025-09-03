@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Fx64b/swiss-cross/compare/v1.0.0...v1.0.1) (2025-09-03)
+
+
+### Bug Fixes
+
+* trigger new version ([78f91a8](https://github.com/Fx64b/swiss-cross/commit/78f91a8194cdd7b5813504dbb216497eb1f4d5f1))
+
 # 1.0.0 (2025-09-03)
 
 
