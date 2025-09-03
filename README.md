@@ -3,6 +3,7 @@
 A lightweight React component for rendering the Swiss cross symbol with zero dependencies and full TypeScript support.
 
 [![CI](https://github.com/Fx64b/swiss-cross/workflows/CI/badge.svg)](https://github.com/Fx64b/swiss-cross/actions)
+[![npm downloads](https://img.shields.io/npm/dm/swiss-cross.svg)](https://www.npmjs.com/package/swiss-cross)
 
 ## Installation
 
