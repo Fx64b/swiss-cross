@@ -1,6 +1,6 @@
 {
   "name": "swiss-cross",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component for rendering the Swiss cross symbol",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
