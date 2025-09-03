@@ -95,6 +95,35 @@ pnpm build
 pnpm dev
 ```
 
+## Release Process
+
+This package uses [semantic-release](https://github.com/semantic-release/semantic-release) for automated versioning and publishing.
+
+### Setup Requirements
+
+To enable automated releases, add these secrets to your GitHub repository:
+
+1. `NPM_TOKEN` - npm token for publishing to npm registry
+2. `GITHUB_TOKEN` - automatically provided by GitHub Actions
+
+### Commit Message Format
+
+Use [Conventional Commits](https://www.conventionalcommits.org/) for automatic version bumping:
+
+- `feat:` - new feature (minor version bump)
+- `fix:` - bug fix (patch version bump) 
+- `docs:` - documentation changes
+- `BREAKING CHANGE:` - breaking change (major version bump)
+
+Example: `feat: add new borderRadius option`
+
+### Manual Release Testing
+
+```bash
+# Test release configuration locally
+pnpm semantic-release --dry-run
+```
+
 ## Requirements
 
 - Node.js ≥18.12.0
