@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Fx64b/swiss-cross/compare/v1.0.1...v1.0.2) (2025-09-03)
+
+
+### Bug Fixes
+
+* update .npmignore and package.json for better type definitions and exclude test files ([5b54125](https://github.com/Fx64b/swiss-cross/commit/5b541259bd712f578a060d788b5be2877b2f138e))
+
 ## [1.0.1](https://github.com/Fx64b/swiss-cross/compare/v1.0.0...v1.0.1) (2025-09-03)
 
 
