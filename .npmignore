@@ -18,6 +18,8 @@ __tests__/
 *.test.*
 *.spec.*
 coverage/
+setupTests.*
+jest.config.js
 
 # CI/CD files
 .github/

@@ -7,11 +7,12 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.esm.js",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
+  "sideEffects": false,
   "homepage": "https://fx64b.dev/projects/swiss-cross",
   "files": [
     "dist"
