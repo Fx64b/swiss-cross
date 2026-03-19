@@ -34,17 +34,19 @@ export function SwissCross({
     borderRadius: borderRadiusStyle,
   };
 
+  // Official proportions per Swiss Federal Law SR 232.21:
+  // Cross total = 20/32 = 62.5% of flag; arm width = 6/32 = 18.75%; arm ratio = 7:6
   const horizontalBarStyle: React.CSSProperties = {
     position: 'absolute',
-    width: '80%',
-    height: '20%',
+    width: '62.5%',
+    height: '18.75%',
     backgroundColor: crossColor,
   };
 
   const verticalBarStyle: React.CSSProperties = {
     position: 'absolute',
-    width: '20%',
-    height: '80%',
+    width: '18.75%',
+    height: '62.5%',
     backgroundColor: crossColor,
   };
 
